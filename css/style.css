@@ -1,0 +1,32 @@
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+@import url(components/hero.css);
+@import url(components/how_it_work.css);
+@import url(components/footer.css);
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+.container{
+  width: 900px;
+  margin: 0px auto;
+}
+.container h2{
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
